@@ -1,0 +1,106 @@
+/*.div-table{
+  display: flex;
+  color: #666666;
+  min-width: 385px;
+}
+
+.time{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  margin-right: 10px;
+  margin-left: 5%;
+}
+
+@media (max-width: 700px){
+  .time{
+      margin-left: 0;
+  }
+  
+
+}
+
+table{
+  border-collapse: collapse; 
+}
+
+th{
+  border: 1px solid #aaaaaa;
+  height: 30px;
+}
+
+td{
+  border: 1px solid #aaaaaa;
+  height: 60px;
+  width: 65px;
+  font-size: 0.5em;
+  vertical-align: text-top;
+
+}
+p{
+  padding: 2px;
+}
+
+
+.cyan{
+  background-color: rgb(92, 255, 255);
+}
+
+.yellow{
+  background-color: rgba(219, 219, 43, 0.808);
+}
+
+.pink{
+  background-color: violet;
+}
+*/
+.schedule {
+  display: flex;
+  align-items: center;
+}
+
+#schedule-time {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: 2px solid #CBCBCB;
+  height: 35px;
+}
+
+td {
+  border: 2px solid #CBCBCB;
+  height: 65px;
+  width: 85px;
+  text-align: center;
+  vertical-align: text-top;
+}
+td p {
+  font-size: 14px;
+  color: black;
+}
+.schedule-class1{
+  background-color: #A5F1ED;
+}
+
+.schedule-class2{
+  background-color: #E6A5F1;
+}
+
+.schedule-class3{
+  background-color: #F6F29B;
+}
